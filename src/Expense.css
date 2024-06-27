@@ -1,0 +1,20 @@
+.icon {
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.a {
+    border-color: green;
+}
+
+.b {
+    border-color: red;
+}
+
+.a:hover, .b:hover {
+    transform: scale(1.5);
+}
+
+.a:active, .b:active {
+    transform: scale(1.25);
+}
